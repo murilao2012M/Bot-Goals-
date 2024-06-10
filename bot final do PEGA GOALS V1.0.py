@@ -3,7 +3,7 @@ import telebot
 import time
 
 # Configurações iniciais
-url_api = "https://playscores.sportsat.app/gateway/api/v2/fixtures-svc/livescores"
+url_api = "" #Apaguei a API utilizada por motivos óbvios
 params = {'includes': 'league,stats,pressureStats', 'take': '3000'}
 token_telegram = "" #Espaço para o seu token do telegram
 chat_id = "" #Espaço para o chat id do seu telegram
